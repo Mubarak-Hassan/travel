@@ -1,0 +1,264 @@
+/* For tablets and smaller desktop screens */
+
+@media screen and (max-width: 1028px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-bar {
+    margin: 1rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .hero-text h4 {
+    font-size: 1rem;
+    margin-left: 1em;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .wrapper-3 {
+    flex-direction: column;
+  }
+  .section-2 {
+    margin: 3rem;
+  }
+  /* .wrapper img {
+    margin-bottom: 20px;
+  } */
+  .content--container {
+    flex-direction: row;
+    width: 100%;
+    font-size: 16px;
+    gap: 4px;
+  }
+  .content--container p {
+    font-size: 13px;
+  }
+  .img-cntnt {
+    margin-top: 2rem;
+  }
+  .img--island {
+    width: 300px;
+  }
+  .head-1 {
+    font-size: 13px;
+  }
+
+  .review-1 {
+    top: 55%;
+    left: 3%;
+  }
+  .review-2 {
+    top: 90%;
+    left: 2%;
+  }
+  .review-3 {
+    top: 70%;
+    left: 68%;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .fel {
+    flex-basis: 50%;
+    margin-bottom: 2rem;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  .nav-items {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav--link {
+    margin: 0.5rem 0;
+  }
+
+  .header-btn {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin: 0.5rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-section {
+    height: 60vh;
+  }
+
+  .container {
+    /* flex-direction: row; Ensure items remain in a row */
+    margin-right: 5%;
+    margin-top: -8%;
+    margin-left: 5%;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .container p:first-child {
+    font-size: 12px; /* Adjust font size for better readability */
+    margin-bottom: 10px;
+  }
+
+  .container p:last-child {
+    font-size: 20px; /* Adjust font size for better readability */
+    margin-left: 13px;
+  }
+
+  .content--container {
+    text-align: center;
+  }
+  .section-4 {
+    margin-top: 20px;
+  }
+  .text-container {
+    margin: 2rem 2rem;
+  }
+  .text-1 {
+    margin-right: 4rem;
+  }
+  .text-1 h1 {
+    font-size: 15px;
+  }
+  .text-1 p {
+    font-size: 11px;
+  }
+  .parag-ex p {
+    width: 30vh;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .wrapper img {
+    width: 200px;
+    height: 24vh;
+  }
+  .cntnt-container p {
+    width: 50vh;
+  }
+
+  .cnt-1 {
+    margin-bottom: 2rem;
+  }
+  .cntnt-container {
+    margin-left: 16%;
+  }
+  .img-wrapper {
+    width: 40vh;
+    gap: 1rem;
+  }
+  .panel {
+    margin: 1rem 0;
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .modal {
+    width: 90%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .fel {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+/* For very small mobile devices */
+@media screen and (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+  .hero-text h4 {
+    font-size: 12px;
+  }
+
+  .hero-section {
+    height: 50vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .section--container .text-1 h1 {
+    font-size: 14px;
+  }
+
+  .modal__header {
+    font-size: 1.5rem;
+  }
+  .container {
+    /* flex-direction: row; Ensure items remain in a row */
+    margin-right: 3%;
+    margin-top: -10%;
+    margin-left: 5%;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .container p:first-child {
+    font-size: 8px; /* Adjust font size for better readability */
+    margin-bottom: 10px;
+  }
+
+  .container p:last-child {
+    font-size: 12px; /* Adjust font size for better readability */
+    margin-left: 13px;
+  }
+  .text-container {
+    margin: 2rem 2rem;
+  }
+  .text-1 {
+    margin-right: 4rem;
+  }
+  .text-1 h1 {
+    font-size: 15px;
+  }
+  .text-1 p {
+    font-size: 11px;
+  }
+  .parag-ex p {
+    width: 30vh;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .wrapper img {
+    width: 200px;
+    height: 24vh;
+  }
+
+  .cnt-1 {
+    margin-bottom: 2rem;
+  }
+  .cntnt-container {
+    margin-left: 12%;
+  }
+
+  .img-wrapper {
+    width: 40vh;
+    gap: 1rem;
+  }
+  .cntnt-container p {
+    width: 50vh;
+  }
+  .panel {
+    margin: 1rem 0;
+    width: 100vh;
+    height: 30vh;
+  }
+}
